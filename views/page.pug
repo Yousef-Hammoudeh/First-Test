@@ -1,0 +1,107 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet' type='text/css' href='./public/css/css.css')
+        title Frontend Mentor | Shortly URL shortening API Challenge
+    body
+        .header
+            .logo 
+                img(src="./public/images/logo.svg")
+                .menubutton
+                    button.dropdownmenu 
+                        img(src='./public/images/navbar.png' width="25px" height="25px")
+            .dropdown
+                .navbar
+                    a.nav(href="features.html") Features
+                    a.nav(href="resources.html") Pricing
+                    a.nav(href="resources.html") Resources
+                .registration 
+                    a.nav(href="login.html") Login  
+                        a.signup(href="signup.html") Sign Up
+        .row
+            .introtitle
+                h1.intro More than just shorter links
+                p.intro Build your brand's recogntion and get detailed insights on how your links are performing
+                a.getstarted.signup(href='getstarted.html') Get Started
+            .pic2
+                img.work(src="./public/images/illustration-working.svg")          
+        .row1
+            .main 
+                input.shorten(type="text" name="shorten" placeholder="Shorten a link here...")
+                button.shorten Shorten it!
+        .activestate
+        .coloruniter
+            .row2
+                .text 
+                    h1 Advanced Statistics
+                    p.text
+                        | Track how your links are performing across the web with
+                        br
+                        | our advanced statistics dashboard
+            .row3
+                .boxcontainer
+                    hr.blue
+                    .firstbox 
+                        .image1
+                        h3.boxtext Brand Recogntion
+                        p.boxtext 
+                            | Boost your brand recognition with 
+                            br
+                            | each click. Generic links don't mean 
+                            br
+                            | a thing. Branded links help instil
+                            br 
+                            | confindence in your content
+                    .secondbox 
+                        .image2
+                        h3.boxtext Detailed Records
+                        p.boxtext 
+                            | Gain insights into who is clicking your
+                            br
+                            | links. Knowing when and where 
+                            br
+                            | people engage with your content
+                            br 
+                            | helps inform better decisions.
+                    .thirdbox 
+                        .image3
+                        h3.boxtext Fully Customizable
+                        p.boxtext 
+                            | Improve brand awareness and 
+                            br
+                            | content discoverability through  
+                            br
+                            | customizable links, supercharging
+                            br 
+                            | audience engagement.
+        .boost 
+            h1.boosttext Boost your links today 
+            a.signup.getstarted(href="getstarted") Get Started
+        .footer
+            .end_logo
+                img(src="./public/images/logo2.svg")
+            .links 
+                .links1
+                    strong Feautures
+                    p.linktext Link Shortening
+                    p.linktext Branded Links
+                    p.linktext Analytics
+                .links2
+                    strong Resources
+                    p.linktext Blog
+                    p.linktext Developers
+                    p.linktext Support
+                .links3
+                    strong Company
+                    p.linktext About
+                    p.linktext Our Team
+                    p.linktext Careers
+                    p.linktext Contact
+            .icons
+                img.icon(src="./public/images/icon-facebook.svg")
+                img.icon(src="./public/images/icon-twitter.svg")
+                img.icon(src="./public/images/icon-pinterest.svg")
+                img.icon(src="./public/images/icon-instagram.svg")
+        script(src="./public/javascript/script.js")
